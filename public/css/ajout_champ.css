@@ -1,0 +1,42 @@
+body{
+    margin: 15px;
+    background-image: url('/images/fond-champs-pro.png');
+    background-size: 100%;
+}
+
+section{transform: translate(350px);
+margin-top: 80px;
+}
+section fieldset{
+    text-align: left;
+    border-style: solid;
+    border-width: thin;
+    margin-right: 600px;
+    border-radius: 10px;
+    border-color: black;
+    background-color: white;
+    padding: 25px 25px 25px 60px;
+}
+section fieldset input{
+    padding: 8px;
+    height: 20px;
+    width: 950px;
+}
+textarea{
+    padding: 8px;
+    width: 950px;
+    height: 100px;
+}
+
+nav input{
+    transform: translate(60px);
+    background-color: rgb(253, 220, 179);
+    border-style: solid;
+    border-width: thin;
+    border-color: black;
+    border-radius: 3px;
+    padding: 5px 15px;
+}
+nav input:hover{
+    background-color: rgb(215, 186, 150);
+}

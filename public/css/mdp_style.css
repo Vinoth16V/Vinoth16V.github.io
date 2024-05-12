@@ -1,0 +1,52 @@
+body {
+    background-image: url('/images/fond_mdp.png');
+    background-size: 100%;
+    width: 93%;
+    margin: 15px auto;
+}
+div{
+    /*transform: translate(650px, 50px);*/
+    transform: translate(150%, 50px);
+}
+p{
+    text-align: center;
+}
+section {
+    border: thin black;
+    background-color: rgb(244, 218, 186);
+    padding: 15px;
+}
+section input {
+    text-align: left;
+    border-style: solid;
+    border-width: thin;
+    border-color: black;
+    background-color: white;
+    margin-left: 15px;
+    padding: 5px;
+    padding-bottom: 20px;
+}
+section label{
+    text-align: left;
+    font-size: 120%;
+}
+nav{
+    text-align: center;
+}
+nav input{
+    background-color: rgb(250, 224, 193);
+    padding: 5px 15px;
+    border-style: solid;
+    border-width: thin;
+    border-color: black;
+    border-radius: 5px;
+}
+nav input:hover {
+    background-color: rgb(218, 190, 156);
+}
+.mdp{
+    position:absolute;
+    left: 50%;
+    top: 50px;
+    transform: translate(-50%);
+}

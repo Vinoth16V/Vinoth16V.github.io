@@ -1,0 +1,42 @@
+.searchBar{
+    border-style: solid;
+    background-color: rgb(253, 220, 179);
+    border-color: black;
+    border-width: thin;
+}
+
+body{
+    margin: 15px;
+    background-image: url('/images/connexion-background.png');
+    background-size: 100%;
+}
+
+/* Style de base pour la classe .searchBar */
+.searchBar {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+/* Style pour le formulaire de recherche */
+.search_form {
+    position: relative;
+    background-color: #fff;
+    border-radius: 30px; /* Bords arrondis */
+    overflow: hidden;
+    width: 60%;
+}
+
+/* Style pour l'input de recherche */
+#searchInput {
+    width: 100%;
+    padding: 12px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 30px; /* Bords arrondis */
+    outline: none;
+}
+
+#searchInput::placeholder {
+    text-align: center; /* Centre le placeholder */
+}

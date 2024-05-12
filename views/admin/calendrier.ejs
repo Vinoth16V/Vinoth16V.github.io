@@ -1,0 +1,61 @@
+
+    <body>
+        <nav>
+            <img src="/images/Sans_titre-removebg-preview.png" alt="logo connexion" width="90" height="90" class="logo">
+            <label for="compte"></label>
+            <select name="compte" id="compte">
+                <option value="profil" class="profil">Profil</option>                    
+                <option value="parametre"class="parametre">Paramètre</option>
+                <option value="text" class="manuel-utilisation">Manuel d'utilisation</option>
+                <option value="deconnexion" class="deconnexion">Déconnexion</option>
+            </select>
+        </nav>
+        <div class="calendrier">
+            <div class="calendrier-header">
+                <div class="bouttonMois">
+                    <p><img src="/images/fleche_gauche.png" alt="mois precedent" width="20" height="20" id="precedentMois" class="prevMois">
+                        <span class="month-style">
+                            <span class="mois" id="mois"></span>
+                        </span>
+                        <img src="/images/fleche_droit.png" alt="mois prochain" width="20" height="20" id="prochainMois" class="suivMois"></p>
+                </div>
+                <div class="bouttonAnnees" id="annees">
+                    <p><img src="/images/fleche_gauche.png" alt="mois precedent" width="20" height="20" id="precedentAn" class="prevAn">
+                    <span class="annee" id="annee"></span>
+                    <img src="/images/fleche_droit.png" alt="mois prochain" width="20" height="20" id="prochainAn" class="suivAn"></p>
+                </div>
+                
+            </div>
+            <div class="calendrier-body">
+                <table class="tableau-style">
+                    <thead>
+                        <tr>
+                            <th>Lundi</th>
+                            <th>Mardi</th>
+                            <th>Mercredi</th>
+                            <th>Jeudi</th>
+                            <th>Vendredi</th>
+                            <th>Samedi</th>
+                            <th>Dimanche</th>
+                        </tr>
+                    </thead>
+                    <tbody class="semaine">
+                    </tbody>
+                </table>
+        </div>
+        <br>
+        <div class="ajout">
+            <a href="ajout_champ" type="button">+</a></p>       
+        </div>
+        <br>
+        <div class="rendez-vous">
+            <a href="rendez_vous" type="button">Rendez-vous</a>
+        </div>
+        <br>
+        <div>
+            <a href="voir_event" type="button" class="voir_event">Evenements du mois</a>
+        </div>
+        <script src="/js/calendrier-connexion.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+        
+    </body>

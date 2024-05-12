@@ -1,0 +1,52 @@
+
+    <body>
+        <nav>
+            <a href="inscription" type="button" class="inscrire">S'inscrire</a>
+            <a href="connexion" type="button" class="connecter">Connexion</a>
+        </nav>
+        <div class="calendrier">
+            <div class="calendrier-header">
+                <div class="bouttonMois">
+                    <p><img src="/images/fleche_gauche.png" alt="mois precedent" width="20" height="20" id="precedentMois" class="prevMois">
+                        <span class="month-style">
+                            <span class="mois" id="mois"></span>
+                        </span>
+                        <img src="/images/fleche_droit.png" alt="mois prochain" width="20" height="20" id="prochainMois" class="suivMois"></p>
+                </div>
+                <div class="bouttonAnnees" id="annees">
+                    <p><img src="/images/fleche_gauche.png" alt="mois precedent" width="20" height="20" id="precedentAn" class="prevAn">
+                    <span id="annee"></span>
+                    <img src="images/fleche_droit.png" alt="mois prochain" width="20" height="20" id="prochainAn" class="suivAn"></p>
+                </div>
+                
+            </div>
+            <div class="calendrier-body">
+                <table class="tableau-style">
+                    <thead>
+                        <tr>
+                            <th>Lundi</th>
+                            <th>Mardi</th>
+                            <th>Mercredi</th>
+                            <th>Jeudi</th>
+                            <th>Vendredi</th>
+                            <th>Samedi</th>
+                            <th>Dimanche</th>
+                        </tr>
+                    </thead>
+                    <tbody class="semaine">
+                    </tbody>
+                </table>
+        </div>
+        <br>
+        <div class="ajout">
+            <input type="button" value="+" />        
+        </div>
+        <br>
+        <div class="rendez-vous">
+            <input type="button" value="Rendez-vous" />        
+        </div>
+        
+        <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+        <script src="/js/calendrier.js"></script>
+    </body>
+</html>

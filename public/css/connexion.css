@@ -1,0 +1,75 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background-image: url('/images/connexion-background.png'); /* Ici l'image de fond */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.login-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.login-form {
+    text-align: center;
+}
+
+.login-form input {
+    display: block;
+    width: 340px;
+    margin: 5px auto;
+    padding: 20px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    background: rgba(255, 255, 255, 0.5);
+}
+
+.button {
+    display: block;
+    width: 340px;
+    padding: 10px;
+    margin: 20px auto; /* l'espace entre les entrées */
+    border: none;
+    border-radius: 20px;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.button:hover {
+    background-color: #0056b3;
+}
+
+.additional-links {
+    display: block;
+    text-align: center;
+}
+
+.link {
+    background: none;
+    border: none;
+    color: #007bff;
+    cursor: pointer;
+    padding: 5px;
+    margin: 5px auto; /* Centrer les liens */
+    display: block; /* regrouper les liens */
+}
+
+.profile-pic {
+    background-image: url('/images/profile-pic.png');
+    width: 120px;
+    height: 120px;
+    background-size: cover;
+    border-radius: 50%;
+    margin: 0 auto 20px;
+}
+
+.link:hover {
+    text-decoration: underline;
+}

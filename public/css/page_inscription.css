@@ -1,0 +1,48 @@
+body{
+    margin: 15px;
+    background-image: url('/images/fond_inscription.png');
+    background-size: 100%;
+}
+h1{
+    text-align: center;
+}
+p {
+    margin-top: 5%;
+    text-align:left;
+    transform: translate(350px);
+    font-size: 30px;
+
+}
+section{transform: translate(350px);
+margin-top: 40px;
+}
+section fieldset{
+    text-align: left;
+    border-style: solid;
+    border-width: thin;
+    margin-right: 900px;
+    border-radius: 10px;
+    border-color: black;
+    background-color: #F3DEA1;
+    padding: 25px 25px 25px 60px;
+}
+section fieldset input{
+    padding: 10px;
+}
+section fieldset label{
+    font-size: 120%;
+    
+}
+nav input{
+    transform: translate(370px);
+    background-color: rgb(253, 220, 179);
+    border-style: solid;
+    border-width: thin;
+    border-color: black;
+    border-radius: 3px;
+    padding: 5px 15px;
+}
+section input{
+    padding-right: 15px;
+}
+section{transform: translate(350px);}

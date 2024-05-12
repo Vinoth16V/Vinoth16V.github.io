@@ -1,0 +1,36 @@
+<body>
+    <section>
+        <div>
+            <fieldset>
+                <form action="/modif_event" class="create-event" method="POST">
+                    <input type="hidden" name="id" id="id" value="<%= locals.event._id %>">
+                    <label for="titre"></label>
+                    <input type="text" name="titre" id="titre" placeholder="titre"  value="<%= locals.event.titre %>"required>
+                    <br><br>
+                    <label for="date"></label>
+                    <input type="date" name="date" id="date" placeholder="Date"  value="<%= locals.formattedDate %>" required>
+                    <br><br>
+                    <label for="heureDebut"></label>
+                    <input type="time" name="heureDebut" id="heureDebut" value="<%= locals.event.heureDebut %>" required>
+                    <br><br>
+                    <label for="heureFin"></label>
+                    <input type="time" id="heureFin" name="heureFin" value="<%= locals.event.heureFin %>"  >
+                    <br><br>
+                    <label for="note"></label>
+                    <textarea placeholder="Note" id="note" name="note"><%= locals.event.note %></textarea>
+                    <br><br>
+                    <label for="repetiton"></label>
+                    <nav>
+                        <input type="submit" value="Enregistrer">
+                    </nav>
+                </form>
+                <form action="suppr_event" method="POST">
+                    <input type="hidden" name="id" id="id" value="<%= locals.event._id %>">
+                    <input type="submit" value="Supprimer">
+                </form>
+            </fieldset>
+        </div>
+        <br>
+
+    </section>
+</body>

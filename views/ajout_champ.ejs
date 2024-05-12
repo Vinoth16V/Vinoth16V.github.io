@@ -1,0 +1,33 @@
+<body>
+    <section>
+        <div>
+            <fieldset>
+                <form action="/ajout_champ" class="create-event" method="POST">
+                    <label for="titre"></label>
+                    <input type="text" name="titre" id="titre" placeholder="titre" required>
+                    <br><br>
+                    <label for="date"></label>
+                    <input type="date" name="date" id="date" placeholder="Date"  required>
+                    <br><br>
+                    <label for="heureDebut"></label>
+                    <input type="time" name="heureDebut" id="heureDebut" value="Heure de début" required>
+                    <br><br>
+                    <label for="heureFin"></label>
+                    <input type="time" id="heureFin" name="heureFin"  >
+                    <br><br>
+                    <label for="note"></label>
+                    <textarea placeholder="Note" id="note" name="note"></textarea>
+                    <br><br>
+                    <label for="repetiton"></label>
+                    <nav>
+                        <input type="button" value="Supprimer">
+                        <br><br>
+                        <input type="submit" value="Enregistrer">
+                    </nav>
+                </form>
+            </fieldset>
+        </div>
+        <br>
+
+    </section>
+</body>

@@ -1,0 +1,136 @@
+/*Barre de recherche*/
+
+body{
+    margin: 15px;
+    background-image: url('/images/fond_inscription.png');
+    background-size: 100%;
+}
+
+h1{
+    text-align: center;
+}
+p {
+    margin-top: 5%;
+    text-align:left;
+    transform: translate(350px);
+    font-size: 30px;
+
+}
+section{transform: translate(350px);
+margin-top: 40px;
+}
+section fieldset{
+    text-align: left;
+    border-style: solid;
+    border-width: thin;
+    margin-right: 900px;
+    border-radius: 10px;
+    border-color: black;
+    background-color: #F3DEA1;
+    padding: 25px 25px 25px 60px;
+}
+section fieldset input{
+    padding: 10px;
+}
+section fieldset label{
+    font-size: 120%;
+    
+}
+nav input{
+    transform: translate(370px);
+    background-color: rgb(253, 220, 179);
+    border-style: solid;
+    border-width: thin;
+    border-color: black;
+    border-radius: 3px;
+    padding: 5px 15px;
+}
+section input{
+    padding-right: 15px;
+}
+section{transform: translate(350px);}
+
+/*page principale*/
+
+html,body{
+    background-image: url('calendrier-background.jpg');
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+table {
+    border: thin solid black;
+    background-color: white;
+}
+.calendrier-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+div p {
+    display: flex;
+    align-items: center;
+}
+.tableau-style {
+    border-collapse: collapse;
+}
+.calendrier{
+    margin: 30px 450px;
+    position:absolute;
+    align-items: center;
+}
+tbody tr, td, th{
+    border: 1px solid black;
+}
+tbody tr, td{
+    padding: 15px;
+}
+tbody tr, th{
+    padding: 5px 20px;
+}
+.connexion {
+    border-style: solid;
+    border-width: thin;
+    border-color: black;
+}
+.deconnexion{
+    border: thin solid black;
+    border-radius: 2px;
+}
+nav input{
+    background-color: rgb(197, 231, 148);
+    padding: 0px 10px;
+    border-radius: 2px;
+    border: solid thin black;
+
+}
+nav{
+    transform: translate(370px,-230px);
+}
+section{text-align: left;}
+section p input {
+    border: solid thin black;
+    background-color: rgb(197, 231, 148);
+    border-radius: 50%;
+    padding: 0px 10px;
+    font-size: larger;
+}
+section input {
+    border: solid thin black;
+    background-color: rgb(197, 231, 148);
+    border-radius: 3px;
+}
+tbody td:hover{
+    background-color: rgb(227, 227, 227);
+}
+input:hover{
+    background-color: rgb(144, 215, 44);
+    box-shadow: inset;
+}
+div #precedent:hover, #prochain:hover{
+    background-color: rgb(158, 157, 157);
+}
+

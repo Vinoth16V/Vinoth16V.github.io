@@ -1,0 +1,22 @@
+<body>
+    <div class="searchBar">
+            <form action="/rendez-vous" class="search_form" role="search" method="POST">
+    
+                <input 
+                type="search"
+                aria-label="Search"
+                id="searchInput"
+                name="searchTerm"
+                placeholder="Veuillez entrer le nom d'un practicien..."/>
+    
+            </form>
+    </div>
+    <section> 
+        <ul>
+            <% data.forEach(User => { %>
+                <span><%= user.nom %> <%= user.prenom %></span>
+            <% }); %>
+        </ul>
+    </section>
+
+</body>
